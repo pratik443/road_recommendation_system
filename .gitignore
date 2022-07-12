@@ -1,0 +1,30 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+!Makefile
+
+# Ignore node modules
+node_modules
+
+### Above combination will ignore all files without extension ###
+
+*.o
+*.out
+*.exe
+*.a.out
+*.gch
+*.vscode
+*.Makefile.swl
+*.Makefile.swm
+*.Makefile.swn
+*.Makefile.swo
+*.Makefile.swp
+coordinates.txt
+distances.txt
+userpoint.txt
+inp.txt
